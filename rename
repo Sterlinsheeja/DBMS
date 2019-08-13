@@ -1,1 +1,3 @@
-
+--alter table patient_info
+--RENAME column id to pid;
+select * from patient_info
