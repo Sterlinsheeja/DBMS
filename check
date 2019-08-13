@@ -1,1 +1,4 @@
-
+--create TABLE doctor_info(name varchar(13),id int,specialization varchar(23),phone varchar(10),available_time char(4)check 
+--available_time in ('mor','noon','eve')))
+--insert into doctor_info values('vaishnavi',12,'kidney specialist',5466788987,'noon')
+select * from doctor_info
