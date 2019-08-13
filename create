@@ -1,1 +1,3 @@
-
+--create table patient_info(id int,title varchar(23),first name varchar(34),last name varchar(23),age int,gender varchar(12),city varchar(23),phno varchar(10));
+--insert into patient_info values(10,"kidney stone","priya","shankar",20,"female","chennai",1234567894)
+--select * from patient_info;
