@@ -1,1 +1,5 @@
-
+--alter table patient_info
+--add email varchar(45)
+--select * from patient_info;
+--update patient_info set email='priyashankar36@gmail.com'where age=20;
+--select * from patient_info;
