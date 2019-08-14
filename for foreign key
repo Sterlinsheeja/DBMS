@@ -1,1 +1,22 @@
+--create table patient(pid int,pname varchar(34),title varchar(34),gender varchar(8));
+/*insert into patient values(12,"radha","fever","f");
+insert into patient values(13,"arun","leg pain","m");
+insert into patient values(14,"ajay","viral fever","m");
+insert into patient values(15,"sai preethi","cough","f");
+insert into patient values(16,"sheeja","cold","f");
+insert into patient values(17,"bhava","fever","f");*/
+--SELECT pid ,pname,title,gender FROM patient;
+--reate TABLE doctor_info(name varchar(13),id int,specialization varchar(23),phone varchar(10),available_time char(4)check(available_time in ('mor','noon','eve')));
+/*insert into doctor_info values("moh",13,"ortho",6578943219,'noon');
+insert into doctor_info values("hana",14,"ortho",6578943219,'eve');
+insert into doctor_info values("mohana",15,"ortho",6578943219,'mor');
+insert into doctor_info values("anu",16,"ortho",6578943219,'noon');
+insert into doctor_info values("anusha",17,"ortho",6578943219,'mor');*/
+--select * from doctor_info;
+--SELECT name,id,specialization,phone,available_time from doctor_info;
+--reate TABLE doctor_info(name varchar(13),id int,specialization varchar(23),phone varchar(10),available_time char(4)check(available_time in ('mor','noon','eve')),constraint pfk primary key(pid) references patient(pid));
+--alter table doctor_info RENAME column id to pid;
+--SELECT * FROM doctor_info;
+--create TABLE doctor_info(name varchar(13),id int,specialization varchar(23),phone varchar(10),available_time char(4)check(available_time in ('mor','noon','eve')),constraint pfk primary key(pid) references patient(pid));
+alter table doctor_info rename id to pid;
 
